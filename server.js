@@ -722,6 +722,6 @@ setInterval(() => {
 setInterval(() => {
   https.get(data.host, _0x9df260 => {}).on("error", _0x26bc04 => {});
 }, 0x75300);
-server.listen(process.env.PORT || 0xbb8, () => {
-  console.log("listening on port 3000");
+server.listen(process.env.PORT || 8000, () => {
+  console.log("listening on port 8000");
 });
